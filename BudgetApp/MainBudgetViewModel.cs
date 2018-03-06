@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace ConsoleApp1
+namespace BudgetApp
 {
-    internal class MainBudgetVM : IMainBudgetVM
+    internal class MainBudgetViewModel : IMainBudgetViewModel
     {
         private ILedger debtModel;
         private ILedger profitModel;
@@ -14,7 +14,7 @@ namespace ConsoleApp1
         public GraphObject GraphObject { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public Legend Legend { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public MainBudgetVM(ILedger debtModel, ILedger profitModel, ILogicProvider logicProvider)
+        public MainBudgetViewModel(ILedger debtModel, ILedger profitModel, ILogicProvider logicProvider)
         {
             this.debtModel = debtModel;
             this.profitModel = profitModel;

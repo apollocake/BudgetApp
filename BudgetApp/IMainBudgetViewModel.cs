@@ -1,6 +1,6 @@
-﻿namespace ConsoleApp1
+﻿namespace BudgetApp
 {
-    public interface IMainBudgetVM
+    public interface IMainBudgetViewModel
     {
         GraphObject GraphObject { get; set; }
         Legend Legend { get; set; }

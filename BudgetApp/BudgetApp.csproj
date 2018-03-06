@@ -44,15 +44,15 @@
   <ItemGroup>
     <Compile Include="BudgetItem.cs" />
     <Compile Include="Cycle.cs" />
-    <Compile Include="DebtVM.cs" />
+    <Compile Include="DebtModel.cs" />
     <Compile Include="IBudgetItem.cs" />
     <Compile Include="ILedger.cs" />
     <Compile Include="ILogicProvider.cs" />
-    <Compile Include="IMainBudgetVM.cs" />
+    <Compile Include="IMainBudgetViewModel.cs" />
     <Compile Include="IServiceModel.cs" />
     <Compile Include="LogicProvider.cs" />
-    <Compile Include="MainBudgetVM.cs" />
-    <Compile Include="ProfitVM.cs" />
+    <Compile Include="MainBudgetViewModel.cs" />
+    <Compile Include="ProfitModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticModel.cs" />

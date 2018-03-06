@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace BudgetApp
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace ConsoleApp1
             ILedger debtViewModel = new DebtModel(debtItems);
             ILedger profitViewModel = new ProfitModel(profitItems);
             ILogicProvider  logicProvider = new LogicProvider();
-            var mainBudgetViewModel = new MainBudgetVM(debtViewModel, profitViewModel, logicProvider);
+            var mainBudgetViewModel = new MainBudgetViewModel(debtViewModel, profitViewModel, logicProvider);
             Console.ReadKey();
         }
     }
